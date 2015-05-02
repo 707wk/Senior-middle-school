@@ -1,0 +1,135 @@
+/***************************************************************
+**  Fastsort Function Made By Ruilx Alxa in GT-Soft Studio    **
+****************************************************************
+** fastsort.c **************************************************
+****************************************************************
+** Copyright (C) 2013 GT-Soft Studio and/or                   **
+**                 its subsidiary(-ies). All rights reserved. **
+** Contact: GT-SOFT Studio <gtsoft.cwsurf.de>                 **
+** $General Public License:GPL$                               **
+** You may use this file under the terms of the GPL license   **
+** as follows:                                                **
+** "Redistribution and use in source and binary forms, with   **
+** or without modification, are permitted provided that the   **
+** following conditions are met:                              **
+**                                                            **
+** THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT        **
+** PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE         **
+** STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER       **
+** PARTIES PROVIDE THE PROGRAM ¡°AS IS¡± WITHOUT WARRANTY       **
+** OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING,       **
+** BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF              **
+** MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.      **
+** THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF       **
+** THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE          **
+** DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY            **
+** SERVICING, REPAIR OR CORRECTION.                           **
+****************************************************************
+*Ruilx Alxa in Xian University of Posts and Telecommunications *
+***************************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "fastsort.h"
+#include "struct.h"
+
+#define STR struct
+#define CON contacts
+
+STR CON *findpre(STR CON *items, STR CON *p){
+	STR CON *pre=items;
+	while((pre->next)!=p && (pre->next)!=NULL){
+		pre=pre->next;
+	}
+	if((pre->next)==NULL){
+		return NULL;
+	}
+	return pre;
+}
+
+STR CON *findmid(STR CON *items, STR CON *p1, STR CON *p2){
+	while((p1->next)!=p2 && p1!=p2 && (p1->next)!=NULL && p2!=items){
+		p1=p1->next;
+		p2=findpre(items, p2);
+	}
+	return p1;
+}
+
+void swap(STR CON *items, STR CON *p1, STR CON *p2){
+	STR CON *p3, *p4, *p5;
+	if((p2->next)!=NULL){
+		if((p1->next)!=NULL){
+			printf("SWAP p1->next!=NULL <-: p1->nextADDR :%x p2->nextADDR: %x\n",p1->next,p2->next);
+			p5=(p2->next);
+			p3=findpre(items, p1);
+			p4=findpre(items, p2);
+			(p2->next)=(p1->next);
+			(p1->next)=p5;
+			(p4->next)=p1;
+			(p3->next)=p2;
+			printf("SWAP p1->next!=NULL ->: p1->nextADDR :%x p2->nextADDR: %x\n",p1->next,p2->next);
+		}else{
+			printf("SWAP p1->next==NULL <-: p1->nextADDR :%x p2->nextADDR: %x\n",p1->next,p2->next);
+			p3=findpre(items, p1);
+			p4=findpre(items, p2);
+			(p1->next)=(p2->next);
+			(p3->next)=p1;
+			(p4->next)=p2;
+			(p2->next)=NULL;
+			printf("SWAP p1->next==NULL ->: p1->nextADDR :%x p2->nextADDR: %x\n",p1->next,p2->next);
+		}
+	}else{
+		printf("SWAP p2->next==NULL <-: p1->nextADDR :%x p2->nextADDR: %x\n",p1->next,p2->next);
+		p3=findpre(items, p1);
+		p4=findpre(items, p2);
+		(p2->next)=(p1->next);
+		(p3->next)=p2;
+		(p4->next)=p1;
+		(p1->next)=NULL;
+		printf("SWAP p2->next==NULL ->: p1->nextADDR :%x p2->nextADDR: %x\n",p1->next,p2->next);
+	}
+}
+
+void quicksort(STR CON *items, STR CON *left, STR CON *right, int ij){
+	STR CON *i, *last;
+	if((left->next)==right){	/* If martix's unit less than 2, abort */
+		return;
+	}
+	last = left;
+	printf("SWAP left:%x findmid(items, left, right):%x\n",left, right);
+	swap(items, left, findmid(items, left, right));	/* Set left of martix makes subarea */
+	printf("SWAP left:%x findmid(items, left, right):%x\n",left, right);
+	for(i=(left->next); (i->next)!=right; i=(i->next)){	
+				/* set left of martix units value less than subarea qualities */
+		switch(ij){
+			case 1:
+				if(strcmp(i->name, left->name) < 0){
+					printf("SWAP last-> %x, i-> %x\n",last,i);
+					swap(items, last, i);
+					printf("LAST++ %x\n",last);
+					last=(last->next);
+					printf("LAST+++%x\n",last);
+				}
+				break;
+			case 2:
+				if(strcmp(i->tele, left->tele) < 0){
+					swap(items, last, i);
+					last=(last->next);
+				}
+				break;
+			default:
+				return;
+		}
+	}
+	printf("SWAP LEFT: %x LAST: %x\n",left,last);
+	swap(items, left, last);	/* Put the subarea values in correct area */
+	printf("SWAP LEFT: %x LAST: %x\n",left,last);
+	quicksort(items, left, findpre(items, last), ij);	/* Sorting in left  area */
+	quicksort(items, (left->next), right, ij);/* Sorting in right area */
+}
+
+void quick(STR CON *items, STR CON *count, int i){
+	quicksort(items, (items->next), count, i);
+}
+

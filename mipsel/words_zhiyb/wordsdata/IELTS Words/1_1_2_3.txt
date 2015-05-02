@@ -1,0 +1,50 @@
+agency
+n.代理处
+allocation
+n.分配,安置
+application
+n.申请
+bill
+n.(水,电费等)账单
+block
+n.大楼
+break-in
+n.入室行窃
+contract
+n.合同,契约
+default
+v.&n.违约,怠慢,不履行
+deposit
+n.押金,保证金
+emergency
+n.紧急情况
+flicker
+v.闪烁,摇曳
+insurance
+n.保险,保单
+landlord
+n.房东
+leak
+v.&n.泄漏
+lease
+n.租约;租期 v.租借
+mortgage
+n.&v.抵押贷款
+move-in notice/date
+入住通知/日期
+privacy
+n.隐私
+receipt
+n.收据 v.出具……的收据
+refund
+v.退款 n.退款
+rent
+n.租金 v.出租
+replace
+v.替换
+rule
+n.规定,规则
+settle down
+安顿下来
+tenant
+n.房客,租客,承租人

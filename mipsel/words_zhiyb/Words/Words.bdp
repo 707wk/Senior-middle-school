@@ -1,0 +1,32 @@
+[Attr]
+Auth = zhiyb
+BOPT = -g -lm -lncurses
+COPT = -g -Wall -Wsign-compare
+Lang = C
+autoMake = 1
+project = Words
+version = 0.1
+[Files]
+File0 = ./main.c
+File1 = ./Fopen.c
+File10 = ./InputBox.h
+File11 = ./WriteWords.c
+File12 = ./WriteWords.h
+File13 = ./KnowWords.c
+File14 = ./KnowWords.h
+File15 = ./WordList.c
+File16 = ./WordList.h
+File17 = ./MainMenu.c
+File18 = ./MainMenu.h
+File19 = ./MainMenu.h
+File2 = ./InputBox.c
+File20 = ./MainMenu.h
+File21 = ./WordList.h
+File3 = ./Common.c
+File4 = ./Common.h
+File5 = ./List.c
+File6 = ./List.h
+File7 = ./Load.c
+File8 = ./Load.h
+File9 = ./Fopen.h
+count = 19

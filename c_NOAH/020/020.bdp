@@ -1,0 +1,11 @@
+[Attr]
+Auth = 
+BOPT = 
+COPT = 
+Lang = C
+autoMake = 1
+project = 020
+version = 1.0
+[Files]
+File0 = ./main.c
+count = 1

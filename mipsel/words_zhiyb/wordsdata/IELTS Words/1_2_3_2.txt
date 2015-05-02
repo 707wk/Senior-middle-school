@@ -1,0 +1,56 @@
+access
+n.入口
+aisle
+n.过道,走廊
+annex
+n.附楼
+architecture
+n.建筑物,建筑学
+avenue
+n.林荫道,街道
+a fork on the road
+分叉路口
+block
+n.街区,大楼
+bypass
+n.旁路,旁道
+crossing
+n.横越,交叉口
+corridor
+n.走廊
+entrance
+n.入口，进入
+flyover
+n.<英>立交桥,跨线桥
+junction
+n.交叉路口;相交的地方
+hall
+n.大厅
+intersection
+n.十字路口
+lane
+n.小路,巷
+landmark
+n.地标,标志性建筑物
+lecture theatre
+礼堂
+main building
+主楼
+pavement
+n.人行道
+pedestrian
+n.行人
+restroom
+n.卫生间
+signpost
+n.路标 v.标记
+stair
+n.楼梯
+staff room
+工作人员休息室
+T-road
+n.丁字路口
+traffic lights
+交通灯
+wing
+n.侧楼

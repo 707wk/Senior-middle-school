@@ -1,0 +1,82 @@
+aeroplane
+n.飞机
+air hostess
+空姐
+airport
+n.机场
+airline
+n.航线，航空公司
+airway
+n.航空公司
+available
+adj.可得到的
+boat
+n.小船
+board
+v.登上（船、飞机等）
+brochure
+n.小册子
+class
+n.级别
+check in
+入住旅馆；办理登机手续
+coach
+n.长途客车
+destination
+n.目的地
+discount
+n.打折，折扣
+declare
+vt.申报 vt.声明
+delay
+v.&n.耽搁，延迟
+duty-free shop
+免税店
+embarkation card
+出境登记表
+ETA(estimated time of arrival)
+预计到达时间
+ETD(estimated time of departure)
+预计起飞时间
+fare
+n.票价，车费
+flight
+n.飞行
+four-wheel drive
+四轮驱动车
+greyhound
+n.长途汽车
+land
+v.着陆
+luggage
+n.行李
+minibus
+n.小型公共汽车
+offer
+v.&n.提供
+platform
+n.站台，月台
+passenger
+n.乘客
+pilot
+n.飞行员
+price
+n.价格
+refuel
+v.加油，补给燃料
+reservation
+n.预定
+runway
+n.跑道
+stopover
+n.中途停留
+schedule
+n.时间表
+time difference
+时差
+ticket
+n.票
+train
+n.火车
+yacht
+n.游艇

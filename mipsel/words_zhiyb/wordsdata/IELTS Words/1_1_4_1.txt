@@ -1,0 +1,58 @@
+bakery
+n.面包店
+banquet
+n.宴会
+buffet
+n.便餐馆,快餐,自助餐
+chef
+n.厨师
+common room
+师生公共休息室
+canteen
+n.食堂,自助餐厅
+cafe
+n.咖啡馆
+cafeteria
+n.自助餐厅
+confectionery
+n.糖果店,甜食店
+dining hall
+餐厅
+drive-in
+n.免下车餐馆(顾客无需下车即可得到服务的餐馆)
+feast
+n.宴会,筵席
+fork
+n.叉子
+grocery
+n.食品杂货店
+luncheon
+n.正式的午餐;午餐会
+luncheonette
+n.供应便餐的小餐馆
+menu
+n.菜单;饭菜,菜肴
+napkin
+n.餐巾
+order
+v.点菜
+outlet
+n.商店
+pizzeria
+n.比萨饼店
+ready-to-eat section
+快餐部
+reception
+n.招待会,宴会
+refectory
+n.(尤指英国教会团体和学校的)餐厅,食堂
+saucer
+n.杯托
+set course
+套餐
+snack bar
+快餐部,小吃店
+takeaway
+n.(餐馆)外卖食品
+vending machine
+自动售货机

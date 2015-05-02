@@ -1,0 +1,98 @@
+acupuncture
+n.针灸
+antibiotic
+n.抗生素
+aspirin
+n.阿司匹林
+blood pressure
+血压
+bandage
+n.绷带 vt.用绷带包扎
+campus clinic
+学校诊所
+capsule
+n.胶囊
+checkup
+n.体检
+drugstore/pharmacy
+n.药店
+cure
+v.治疗,痊愈 n.药物;治疗,治愈
+dentist
+n.牙医
+diagnosis
+n.诊断
+dosage
+n.剂量
+dose
+n.剂量,一剂 v.给服药
+eyedrop
+n.眼药水
+first-aid kit
+急救包
+heal
+v.治愈,复原
+hormone
+n.荷尔蒙,激素
+immune
+adj.免疫的,有免疫力的
+injection
+n.注射
+health centre
+健康中心
+internal/external use
+内服/外敷
+medicine
+n.药物
+mixture
+n.合剂;混合物
+nursing
+n.护理
+operation
+n.手术
+optic
+adj.眼睛的,视觉的
+optician
+n.验光师
+painkiller
+n.镇痛药
+penicillin
+n.青霉素
+pill
+n.药丸
+physician
+n.医师,内科医生
+prescribe
+v.开处方
+precaution
+n.预防
+pulse
+n.脉搏
+recover
+v.痊愈,复原
+receptionist
+n.接待员
+remedy
+n.治疗
+side effect
+副作用
+surgery
+n.外科,外科手术
+surgeon
+n.外科医生
+syrup
+n.糖浆
+tablet
+n.药片
+temperature
+n.温度,体温
+therapy
+n.治疗
+treatment
+n.治疗
+vaccine
+n.疫苗
+vitamin
+n.维生素
+ward
+n.病房 v.守护,保卫

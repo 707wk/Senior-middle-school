@@ -1,0 +1,11 @@
+[Attr]
+Auth = 
+BOPT = 
+COPT = 
+Lang = C++
+autoMake = 1
+project = Rabbits_number
+version = 0.0.1
+[Files]
+File0 = ./main.cpp
+count = 1

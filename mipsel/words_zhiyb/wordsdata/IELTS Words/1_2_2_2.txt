@@ -1,0 +1,82 @@
+airmail
+n.航空邮件
+address
+n.地址 v.写地址
+addressee
+n.收信人,收件人
+area code
+区号
+cash on deliver
+货到付款
+circular
+n.通知,传单
+telegram
+n.电报
+consignee
+n.受托者,收件人
+correspondence
+n.通信,信件
+covering letter
+附信
+date stamp
+(加盖的)日期邮戳
+delivery
+n.递送,交付
+dialing tone
+拨号音
+pouch
+n.小袋
+diplomatic pouch
+外交邮袋
+travel pouch
+旅行袋
+directory
+n.目录,姓名地址录
+engaged tone
+占线音,忙音
+envelope
+n.信封,封套
+postal charges
+游资
+express/special delivery letters
+快递信件
+extension
+n.分机
+letter box
+信箱
+letterhead
+n.信笺上方的印刷文字,抬头
+line
+n.线路
+local call
+市内电话
+long-distance call
+长途电话
+mail sorter
+信件分类装置
+mailbag
+n.邮袋
+parcel
+n.小包,邮报,包裹
+payee
+n.收款人,领款人
+postage
+n.邮资,邮费
+postal
+adj.邮政的,邮局的
+postcard
+n.明信片
+postman
+n.邮递员
+postscript
+n.附言,后记(PS为其缩写形式)
+receiver
+n.接受者,电话听筒
+registered letter
+挂号信
+reverse-charge call
+接听人付款的电话
+switchboard
+n.接线总机
+telegraph
+n.电报机,电报
