@@ -141,7 +141,8 @@ int main(int argc,char* argv[])
     //返回查找结果 
     result=EnumFiles(directory,&count);
     
-    system("md data");
+    //system("md data");
+    CreateDirectory(".//data",NULL);
     
     for(i=0;i<count;i++)
     {
