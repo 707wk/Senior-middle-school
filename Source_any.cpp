@@ -2,7 +2,7 @@
  *FILE    :Source_any.cpp
  *PROJECT :NULL
  *AUTHOR  :707wk
- *CREATED :5/6/2015
+ *CREATED :5/7/2015
  *TEXT    :转换文本数据为二进制
  *EMAIL   :gtsoft_wk@foxmail.com
 ***************************************/
@@ -74,8 +74,6 @@ _FILES_IS_END_:
 
 	fclose(fpin);
 	fclose(fpout);
-	
-	printf("%s is ok\n",inputfiles);
 }
 
 //查找当前目录下所有txt文件 
@@ -141,14 +139,17 @@ int main(int argc,char* argv[])
     //返回查找结果 
     result=EnumFiles(directory,&count);
     
-    //system("md data");
+    //创建data目录 
     CreateDirectory(".//data",NULL);
     
+    printf("已处理");
     for(i=0;i<count;i++)
     {
     	changedata(result[i]);
+    	printf("%2d%%\b\b\b",i*100/count);
     }
     
-    printf("\nok\n");
+    printf("\r文件处理完毕\n");
+    Sleep(4000);
     return 0;
 }
